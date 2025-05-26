@@ -1,0 +1,11 @@
+[project]
+name = "ozon-scraper"
+version = "0.1.0"
+description = "Парсит данные о товарах с ozon"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "bs4==0.0.2",
+    "lxml==5.3.0",
+    "undetected-chromedriver==3.5.5",
+]

@@ -35,7 +35,7 @@ def collect_product_info(driver: uc.Chrome, url: str | None = "") -> dict:
         By.XPATH, '//div[contains(text(), "Артикул: ")]',
     ).text.split("Артикул: ")[1]
 
-    # print(product_id)  # noqa: ERA001
+    # logger.debug(product_id)  # noqa: ERA001
 
     page_source = str(driver.page_source)
     soup = BeautifulSoup(page_source, "lxml")

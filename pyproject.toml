@@ -9,3 +9,10 @@ dependencies = [
     "lxml==5.3.0",
     "undetected-chromedriver==3.5.5",
 ]
+
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = [
+    # Ошибки связанные с кирилицей
+    "RUF001", "RUF002", "RUF003",
+]

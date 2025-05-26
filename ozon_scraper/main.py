@@ -68,7 +68,3 @@ def main():
     print('[INFO] Сбор данных начался. Пожалуйста ожидайте...')
     get_products_links(item_name='наушники hyperx')
     print('[INFO] Работа выполнена успешно!')
-
-
-if __name__ == '__main__':
-    main()

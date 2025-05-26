@@ -5,5 +5,5 @@
 Запуск:
 
 ```bash
-
+uv run -m ozon_scraper
 ```
